@@ -40,7 +40,7 @@ print(category_summary)
 # 庫存預警：stock_left 少於 5 的產品
 low_stock = df[df["stock_left"] < 5].sort_values("stock_left")
 
-print("\n⚠️ 庫存預警：")
+print("\n庫存預警：")
 print(low_stock[["product","region","stock_left"]])
 
 
