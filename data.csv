@@ -1,0 +1,9 @@
+product,category,region,price,stock,sold
+Apple,Fruit,HK,10,50,45
+Banana,Fruit,HK,5,200,195
+Orange,Fruit,TW,8,30,28
+Laptop,Electronics,HK,5000,10,9
+Phone,Electronics,TW,3000,15,14
+Headphones,Electronics,HK,500,8,8
+Rice,Food,TW,20,100,30
+Noodles,Food,HK,15,80,75

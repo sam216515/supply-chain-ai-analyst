@@ -1,0 +1,38 @@
+2026-05-09 16:42:20,463 [INFO] HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 404 Not Found"
+2026-05-09 16:42:20,464 [WARNING] 第1次失敗，等待1秒後重試... 錯誤：Error code: 404 - {'error': {'message': 'Ling-2.6-1T is no longer available as a free model. It has transitioned to a paid model. Continue using it here: https://openrouter.ai/inclusionai/ling-2.6-1t', 'code': 404}, 'user_id': 'user_3Chca9igARVbAMGTifwvVXZ7yUe'}
+2026-05-09 16:42:21,479 [INFO] HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 404 Not Found"
+2026-05-09 16:42:21,480 [WARNING] 第2次失敗，等待2秒後重試... 錯誤：Error code: 404 - {'error': {'message': 'Ling-2.6-1T is no longer available as a free model. It has transitioned to a paid model. Continue using it here: https://openrouter.ai/inclusionai/ling-2.6-1t', 'code': 404}, 'user_id': 'user_3Chca9igARVbAMGTifwvVXZ7yUe'}
+2026-05-09 16:42:23,495 [INFO] HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 404 Not Found"
+2026-05-09 16:42:23,496 [WARNING] 第3次失敗，等待4秒後重試... 錯誤：Error code: 404 - {'error': {'message': 'Ling-2.6-1T is no longer available as a free model. It has transitioned to a paid model. Continue using it here: https://openrouter.ai/inclusionai/ling-2.6-1t', 'code': 404}, 'user_id': 'user_3Chca9igARVbAMGTifwvVXZ7yUe'}
+2026-05-09 16:43:28,474 [INFO] HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 404 Not Found"
+2026-05-09 16:43:28,476 [WARNING] 第1次失敗，等待1秒後重試... 錯誤：Error code: 404 - {'error': {'message': 'No endpoints found for deepseek/deepseek-chat-v3-0324:free.', 'code': 404}, 'user_id': 'user_3Chca9igARVbAMGTifwvVXZ7yUe'}
+2026-05-09 16:43:29,493 [INFO] HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 404 Not Found"
+2026-05-09 16:43:29,494 [WARNING] 第2次失敗，等待2秒後重試... 錯誤：Error code: 404 - {'error': {'message': 'No endpoints found for deepseek/deepseek-chat-v3-0324:free.', 'code': 404}, 'user_id': 'user_3Chca9igARVbAMGTifwvVXZ7yUe'}
+2026-05-09 16:43:31,509 [INFO] HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 404 Not Found"
+2026-05-09 16:43:31,509 [WARNING] 第3次失敗，等待4秒後重試... 錯誤：Error code: 404 - {'error': {'message': 'No endpoints found for deepseek/deepseek-chat-v3-0324:free.', 'code': 404}, 'user_id': 'user_3Chca9igARVbAMGTifwvVXZ7yUe'}
+2026-05-09 16:44:27,062 [INFO] HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-05-09 16:44:27,063 [INFO] Retrying request to /chat/completions in 0.426528 seconds
+2026-05-09 16:44:28,203 [INFO] HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-05-09 16:44:28,203 [INFO] Retrying request to /chat/completions in 0.914198 seconds
+2026-05-09 16:44:29,838 [INFO] HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-05-09 16:44:29,839 [WARNING] 第1次失敗，等待1秒後重試... 錯誤：Error code: 429 - {'error': {'message': 'Provider returned error', 'code': 429, 'metadata': {'raw': 'openrouter/owl-alpha is temporarily rate-limited upstream. Please retry shortly.', 'provider_name': 'Stealth', 'is_byok': False}}, 'user_id': 'user_3Chca9igARVbAMGTifwvVXZ7yUe'}
+2026-05-09 16:44:31,582 [INFO] HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-05-09 16:44:31,583 [INFO] Retrying request to /chat/completions in 0.438082 seconds
+2026-05-09 16:44:32,774 [INFO] HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-05-09 16:44:32,774 [INFO] Retrying request to /chat/completions in 0.809816 seconds
+2026-05-09 16:44:34,305 [INFO] HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-05-09 16:44:34,306 [WARNING] 第2次失敗，等待2秒後重試... 錯誤：Error code: 429 - {'error': {'message': 'Provider returned error', 'code': 429, 'metadata': {'raw': 'openrouter/owl-alpha is temporarily rate-limited upstream. Please retry shortly.', 'provider_name': 'Stealth', 'is_byok': False}}, 'user_id': 'user_3Chca9igARVbAMGTifwvVXZ7yUe'}
+2026-05-09 16:44:37,028 [INFO] HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-05-09 16:44:37,029 [INFO] Retrying request to /chat/completions in 0.498297 seconds
+2026-05-09 16:44:38,239 [INFO] HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-05-09 16:44:38,240 [INFO] Retrying request to /chat/completions in 0.798142 seconds
+2026-05-09 16:44:39,765 [INFO] HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-05-09 16:44:39,765 [WARNING] 第3次失敗，等待4秒後重試... 錯誤：Error code: 429 - {'error': {'message': 'Provider returned error', 'code': 429, 'metadata': {'raw': 'openrouter/owl-alpha is temporarily rate-limited upstream. Please retry shortly.', 'provider_name': 'Stealth', 'is_byok': False}}, 'user_id': 'user_3Chca9igARVbAMGTifwvVXZ7yUe'}
+2026-05-09 16:45:31,089 [INFO] HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 404 Not Found"
+2026-05-09 16:45:31,091 [WARNING] 第1次失敗，等待1秒後重試... 錯誤：Error code: 404 - {'error': {'message': 'No endpoints found for google/gemini-2.0-flash-exp:free.', 'code': 404}, 'user_id': 'user_3Chca9igARVbAMGTifwvVXZ7yUe'}
+2026-05-09 16:45:32,106 [INFO] HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 404 Not Found"
+2026-05-09 16:45:32,107 [WARNING] 第2次失敗，等待2秒後重試... 錯誤：Error code: 404 - {'error': {'message': 'No endpoints found for google/gemini-2.0-flash-exp:free.', 'code': 404}, 'user_id': 'user_3Chca9igARVbAMGTifwvVXZ7yUe'}
+2026-05-09 16:45:34,121 [INFO] HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 404 Not Found"
+2026-05-09 16:45:34,122 [WARNING] 第3次失敗，等待4秒後重試... 錯誤：Error code: 404 - {'error': {'message': 'No endpoints found for google/gemini-2.0-flash-exp:free.', 'code': 404}, 'user_id': 'user_3Chca9igARVbAMGTifwvVXZ7yUe'}
+2026-05-09 16:45:56,559 [INFO] HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-09 16:46:00,701 [INFO] API 呼叫成功
